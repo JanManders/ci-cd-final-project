@@ -38,8 +38,9 @@ kind: Task
 metadata:
   name: nose
 spec:
+  description: this task will run nosetests
   workspaces:
-    - name: nose
+    - name: source
   params:
     - name: args
       description: Arguments to pass to nose
